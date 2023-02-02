@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: "Outfit";
+    
+}
+body{
+    background: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+.card{
+    width:350px;
+    height: 596px;;
+    border-radius: 15px;
+    background-color: #15263F;
+}
+.img1{
+    width:302px;
+    height:302px;
+    margin: 24px;
+    border-radius: 8px;
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    width:302px;
+    height: 28px;
+    color:white;
+    text-align: center;
+}
+.balance{
+    width: 302px;
+    height: 52px;
+    color: #8BACD9;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+.p00{
+    width: 75px;
+    height: 20px;
+    color: #00FFF8;
+    margin-left: 6.49px;
+}
+.ether{
+    margin-left: 24px;
+}
+.clock{
+    margin-left: 112px;
+}
+.pclass{
+    color:#8BACD9;
+    margin-left: 6px;
+}
+.line{
+    width:auto;
+    height: 1px;
+    background-color: grey;
+    margin: 24px;
+}
+.img-avatar{
+    width: 33px;
+    height: 33px;
+    margin-left: 24px;
+}
+.text{
+    margin-top:6px;
+    margin-left: 13px;
+    color: #8BACD9;
+    margin-bottom: 22px;
+}
+.text2{
+    margin-top:6px;
+    margin-bottom: 22px;
+    margin-left:5px;
+    color: #ffff;
+}
